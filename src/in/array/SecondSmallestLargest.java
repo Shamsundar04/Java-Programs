@@ -1,13 +1,12 @@
 package in.array;
 
-import java.util.Arrays;
 
 public class SecondSmallestLargest {
 
 	public static void main(String[] args) {
 		
 		int a[] = { 6, 3, 2, 1, 5, 5, 4, 1, 1, 1, 6 };
-		
+
 //		Arrays.sort(arr);
 //		System.out.println(Arrays.toString(arr));
 
@@ -26,21 +25,23 @@ public class SecondSmallestLargest {
 			}
 		}
 		
-		System.out.println(Arrays.toString(a));
+//		System.out.println(Arrays.toString(a));
 //		
 //		int secondLargest=a[a.length-2];
 //		System.out.println(secondLargest);
 		
 		
-		for(int i=0;i<a.length-1;i++) {
-			if (a[i]!=a[i+1]) {
-				System.out.println(a[i+1]);
-				System.out.println(a[a.length-2]);
-				break;
-			}
-		}
+//		for(int i=0;i<a.length-1;i++) {
+//			if (a[i]!=a[i+1]) {
+//				System.out.println(a[i+1]);
+//				System.out.println(a[a.length-2]);
+//				break;
+//			}
+//		}
 		
-//		for(int i=0;i)
+		for (int i : a) {
+			System.out.println(i);
+		}
 		
 	}
 }
