@@ -22,8 +22,52 @@ public class RemoveDuplicate {
 	
 	
 	public static void main(String[] args) {
-		RemoveDuplicate obj=new RemoveDuplicate();
-		String result = obj.removeDulplicate("rraamm");
+//		RemoveDuplicate obj=new RemoveDuplicate();
+//		String result = obj.removeDulplicate("rraamm");
+//		System.out.println(result);
+		
+		
+//		String str="programming";    // progamin
+//		int counter=0;
+//		String str2="";
+//		for(int i=0;i<str.length();i++) {
+//			
+//			for(int j=0;j<str.length();j++) {
+//				
+//				if (str.charAt(i)==str.charAt(j)) {
+//					counter++;
+//				}
+//			}
+//			
+//			if (counter==1) {
+//				str2+=str.charAt(i);
+//			}
+//			
+//			counter=0;
+//		}
+//		
+//		
+//		System.out.println(str2);
+		
+		
+		
+		
+		String str="programming";    // progamin
+		String result="";
+		
+		for(int i=0;i<str.length();i++) {
+			
+			if (result.indexOf(str.charAt(i)) == -1) {
+				result=result+str.charAt(i);
+			}
+		}
+
 		System.out.println(result);
+		
+		String string="A man a plan a canal Panama";
+		String trim = string.trim();
+		System.out.println(trim);
+		
+		
 	}
 }

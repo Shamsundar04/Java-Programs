@@ -17,6 +17,8 @@ public class DuplicateRemove {
 				}
 			}
 		}
+		
+		
 		System.out.println("Sorted array");
 		for (int i : a) {
 			System.out.print(i + " ");
