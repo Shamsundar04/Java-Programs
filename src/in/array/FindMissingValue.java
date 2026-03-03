@@ -45,15 +45,14 @@ public class FindMissingValue {
 //		
 //		
 //		System.out.println(expectedSum-actualSum);
-		
-		
-		
+
+
 		int a[]= {1,2,3,4,6};
-		
+
 		int expected_length=a.length+1;
-		
+
 		int totalSum = expected_length*(expected_length+1)/2;
-		
+
 		int sum=0;
 		for(int i=0;i<a.length;i++) {
 			sum+=a[i];
