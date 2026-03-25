@@ -50,23 +50,42 @@ public class RemoveDuplicate {
 //		System.out.println(str2);
 		
 		
-		
-		
-		String str="programming";    // progamin
-		String result="";
-		
-		for(int i=0;i<str.length();i++) {
-			
-			if (result.indexOf(str.charAt(i)) == -1) {
-				result=result+str.charAt(i);
-			}
-		}
+		String str="programming";
+        boolean isDuplicate=false;
 
-		System.out.println(result);
+        for(int i=0;i<str.length();i++){
+            isDuplicate=false;
+
+            for(int j=0;j<i;j++){
+                if(str.charAt(i)==str.charAt(j)){
+                    isDuplicate=true;
+                    break;
+                }
+         }
+
+            if(!isDuplicate){
+                System.out.print(str.charAt(i));
+            }
+        }
 		
-		String string="A man a plan a canal Panama";
-		String trim = string.trim();
-		System.out.println(trim);
+		
+		
+		
+//		String str="programming";    // progamin
+//		String result="";
+//		
+//		for(int i=0;i<str.length();i++) {
+//			
+//			if (result.indexOf(str.charAt(i)) == -1) {
+//				result=result+str.charAt(i);
+//			}
+//		}
+//
+//		System.out.println(result);
+//		
+//		String string="A man a plan a canal Panama";
+//		String trim = string.trim();
+//		System.out.println(trim);
 		
 		
 	}

@@ -18,19 +18,19 @@ class FrequencySort {
         
         List<Character> list = new ArrayList<>(map.keySet());
         list.sort((a,b)-> map.get(b) - map.get(a));
-        list.forEach(System.out::println);
+//        list.forEach(System.out::println);
         
         
-//        int freq[]=new int[256];
-//        
-//        for(int i=0;i<s.length();i++){
-//            freq[s.charAt(i)]++;
-//        }
-//        
-//        for(int i=0;i<freq.length;i++){
-//            if(freq[i]>0){
+        int freq[]=new int[256];
+        
+        for(int i=0;i<s.length();i++){
+            freq[s.charAt(i)]++;
+        }
+        
+        for(int i=0;i<freq.length;i++){
+            if(freq[i]>0){	
 //                System.out.print((char)i+" "+freq[i]);
-//            }
-//        }
+            }
+        }
     }
 }

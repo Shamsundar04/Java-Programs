@@ -6,21 +6,22 @@ public class DuplicateRemove {
 		
 		
 		int a[]= {1,1,2,2,3,3};
+		int b[]=new int[a.length];
 		int len=a.length;
+		int temp=0;
 		
-		for(int i=0;i<len;i++) {
-			for(int j=i+1;j<len;j++) {
-				if (a[i]==a[j]) {
-					for(int k=j;k<len-1;k++) {
-						a[k]=a[k+1];
-					}
-					len--;
-				}
+		
+		
+		for(int i=0;i<len-1;i++) {
+			if (a[i]!=a[i+1]) {
+				b[temp++]=a[i];
 			}
 		}
 		
-		for (int i=0;i<len;i++) {
-			System.out.print(a[i]+" ");
+		b[temp]=a[a.length-1];
+		
+		for (int i=0;i<=temp;i++) {
+			System.out.print(b[i]+" ");
 		}
 			
 			
