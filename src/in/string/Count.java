@@ -13,5 +13,4 @@ public class Count {
 	    	   System.out.println(words+" = "+words.length());
 	      }
 	}
-
 }
