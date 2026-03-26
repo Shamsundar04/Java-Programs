@@ -3,6 +3,8 @@ package in.string;
 public class PalindromeLongest {
 
 	public static void main(String[] args) {
+		
+		
 
 		String str = "babad";
 		String longest = "";

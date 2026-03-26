@@ -12,7 +12,7 @@ public class CountNoOccurence {
 			
 			c=0;
 			
-			if (visited[i]==true) {
+			if (visited[i]) {
 				continue;
 			}
 			

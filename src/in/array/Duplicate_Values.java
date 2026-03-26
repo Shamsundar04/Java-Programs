@@ -15,12 +15,14 @@ public class Duplicate_Values {
 //		HashSet<Integer> duplicate=new HashSet<>();
 		
 		for (int n : arr) {
-			seen.add(n);
+			if (!seen.add(n)) {
+				System.out.println(n);
+			}
 		}
 		
 //		System.out.print(seen);
 		
-		seen.forEach((n)->System.out.println(n));
+//		seen.forEach((n)->System.out.println(n));
 		
 		
 //		for (int n : arr) {
