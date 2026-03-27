@@ -1,7 +1,12 @@
 package in.array;
 
+import java.util.HashMap;
 //import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.stream.Collectors;
 //import java.util.Iterator;
 //import java.util.Set;
 //import java.util.TreeSet;
@@ -83,5 +88,20 @@ public class Duplicate_Values {
 //		for(int no:hashSet) {
 //			System.out.println(no);
 //		}
+		
+		
+		Map<String, Integer> map = new HashMap<>();
+		map.put("A", 30);
+		map.put("B", 10);
+		map.put("C", 20);
+
+		map.entrySet()
+		.stream()
+		.sorted(Map.Entry.comparingByValue())
+		.collect(Collectors.toMap(
+				Map.Entry::getKey, 
+				Map.Entry::getValue, 
+				(e1,e2)->e1,
+				LinkedHashMap::new));
 	}
 }
