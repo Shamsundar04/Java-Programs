@@ -6,10 +6,9 @@ public class AllUnique {
 		int arr[] = {1,2,1,3,4,6,2,5,4};
 		
 		boolean visited[]=new boolean[arr.length];
-		
-		
+
 		for(int i=0;i<arr.length;i++) {
-			
+		
 			if (visited[i]) {
 				continue;
 			}
@@ -21,8 +20,8 @@ public class AllUnique {
 			}
 
 			System.out.println(arr[i]);
-		}	
-		
+		}
+
 //		int c=0;
 ////		3 5 6
 //		
