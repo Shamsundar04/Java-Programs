@@ -19,12 +19,9 @@ public class AllUnique {
 					visited[j]=true;
 				}
 			}
-			
+
 			System.out.println(arr[i]);
-			
-		}
-		
-		
+		}	
 		
 //		int c=0;
 ////		3 5 6
