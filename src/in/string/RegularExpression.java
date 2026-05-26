@@ -14,5 +14,4 @@ public class RegularExpression {
 		boolean matches2 = phone.matches("^[6-9][0-9]{9}$");
 		System.out.println(matches2);
 	}
-
 }

@@ -7,8 +7,8 @@ public class LargestAndSmallestWord {
 		
 		String[] split = str.split(" ");
 		
-		String max=split[0];
-		String min=split[0];
+		String max="";
+		String min="";
 		
 		
 		for (String string : split) {

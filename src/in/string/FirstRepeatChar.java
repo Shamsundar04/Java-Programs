@@ -8,7 +8,7 @@ public class FirstRepeatChar {
 
 		HashSet<Character> set = new HashSet<>();
 
-		for (char ch : name.toCharArray()) { // geeks
+		for (char ch : name.toCharArray()) { // geksg
 
 			if (set.contains(ch))
 				return ch;

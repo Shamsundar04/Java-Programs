@@ -4,8 +4,6 @@ public class PalindromeLongest {
 
 	public static void main(String[] args) {
 		
-		
-
 		String str = "babad";
 		String longest = "";
 
@@ -13,10 +11,13 @@ public class PalindromeLongest {
 
 			for (int j = i + 1; j < str.length(); j++) {
 				String sub = str.substring(i, j);
+				
 				System.out.println(sub);
-				if (isPalindrome(sub) && sub.length() > longest.length()) {
-					longest = sub;
-				}
+				
+//				System.out.println(sub);
+//				if (isPalindrome(sub) && sub.length() > longest.length()) {
+//					longest = sub;
+//				}
 			}
 		}
 

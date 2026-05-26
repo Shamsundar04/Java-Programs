@@ -23,5 +23,4 @@ public class CheckOneStringContainsAnother {
 
 	        System.out.println(checkShift(s1,s2));
 	    }
-
 }

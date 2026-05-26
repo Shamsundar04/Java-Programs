@@ -17,7 +17,6 @@ public class CountOccurrencesEachWord {
 		    if(visited[i]) {
 		        continue;
 		    }
-
 		    int count = 1;
 
 		    for(int j = i + 1; j < split.length; j++) {

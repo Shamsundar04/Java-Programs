@@ -7,14 +7,13 @@ public class RemoveDuplicate {
 	HashSet<Character> set=new HashSet<>();
 	
 	public String removeDulplicate(String name) {
-		
+
 		for (char ch : name.toCharArray()) {
 			if (set.contains(ch)) {
 				set.remove(ch);
 			}
-			
+
 			set.add(ch);
-			
 		}
 		System.out.println(set);
 		return null;
@@ -50,23 +49,23 @@ public class RemoveDuplicate {
 //		System.out.println(str2);
 		
 		
-		String str="programming";
-        boolean isDuplicate=false;
-
-        for(int i=0;i<str.length();i++){
-            isDuplicate=false;
-
-            for(int j=0;j<i;j++){
-                if(str.charAt(i)==str.charAt(j)){
-                    isDuplicate=true;
-                    break;
-                }
-         }
-
-            if(!isDuplicate){
-                System.out.print(str.charAt(i));
-            }
-        }
+//		String str="programming";
+//        boolean isDuplicate=false;
+//
+//        for(int i=0;i<str.length();i++){
+//            isDuplicate=false;
+//
+//            for(int j=0;j<i;j++){
+//                if(str.charAt(i)==str.charAt(j)){
+//                    isDuplicate=true;
+//                    break;
+//                }
+//         }
+//
+//            if(!isDuplicate){
+//                System.out.print(str.charAt(i));
+//            }
+//        }
 		
 		
 		
