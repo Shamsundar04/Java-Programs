@@ -12,9 +12,12 @@ class CountVowelsAndConsonants {
 			} else {
 				consonant++;
 			}
+			
+			
 		}
-		System.out.println("vowel : " + vowel);
-		System.out.println("consonant : " + consonant);		
-		System.out.println("aeiou".indexOf("c"));
+//		System.out.println("vowel : " + vowel);
+//		System.out.println("consonant : " + consonant);		
+//		System.out.println("aeiou".indexOf("c"));
+		System.out.println("aeiou".indexOf('n'));
 	}
 }
