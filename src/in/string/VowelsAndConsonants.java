@@ -11,7 +11,8 @@ public class VowelsAndConsonants {
 			
 			char ch=vowel.charAt(i);
 			
-			if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') {
+//			if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u')
+			if("aeiou".contains(String.valueOf(ch))){				
 				System.out.println(ch+ " is the vowels");
 			} else {
 				consonants++;

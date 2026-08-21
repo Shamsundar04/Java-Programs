@@ -26,6 +26,6 @@ public class FirstRepeatingChar {
 		}
      }
      
-     System.out.println(firstRep(str));
+//     System.out.println(firstRep(str));
    }
 }
