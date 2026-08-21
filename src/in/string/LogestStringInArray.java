@@ -8,7 +8,7 @@ public class LogestStringInArray {
 	
 	public static String longest(List<String> arr) {
 		
-		String longest=arr.get(0);
+		String longest="";
 		
 		for (int i = 0; i < arr.size(); i++) {
 			
@@ -30,18 +30,18 @@ public class LogestStringInArray {
 //			Explanation: name "GeeksforGeeks" has maximum length among all names.
 		
 
-//		String arr[] = { "Geek", "Geeks", "Geeksfor", "GeeksforGeek", "GeeksforGeeks" };
-//
-//		String max = arr[0];
-//
-//		for (int i = 0; i < arr.length; i++) {
-//			
-//			if (arr[i].length()>max.length()) {	
-//				max=arr[i];
-//			}
-//		}
-//		System.out.println(max);
-		
+		String arr[] = { "Geek", "Geeks", "Geeksfor", "GeeksforGeek", "GeeksforGeeks" };
+
+		String max = arr[0];
+
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i].length()>max.length()) {	
+				max=arr[i];
+			}
+		}
+
+		System.out.println(max);
+
 //		ArrayList<String> arr=new ArrayList<>();
 //		arr.add("Geek");
 		

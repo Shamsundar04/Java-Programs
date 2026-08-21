@@ -2,9 +2,9 @@ package in.string;
 
 class SubString {
     public static void main(String[] args) {
-         String name="sham1234";
-         String pattern="*".repeat(name.length()-4)+name.substring(4);
-         System.out.println(pattern);
+//         String name="sham1234";
+//         String pattern="*".repeat(name.length()-4)+name.substring(4);
+//         System.out.println(pattern);
         
         // StringBuilder builder=new StringBuilder(name.substring(0,5));
         // System.out.println(builder.reverse()+name.substring(5));
